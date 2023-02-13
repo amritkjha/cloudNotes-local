@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# CloudNotes - your notes on cloud
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CloudNotes is a user-friendly note taking app that allows you to store, edit, and delete notes. With CloudNotes, you can keep track of your thoughts, ideas, and important information all in one place.
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/113904274/218568328-3817eb27-73ac-4c95-b13f-2325ee2f8d53.png)
+## Features
 
-In the project directory, you can run:
+In the project, you can:
 
-### `npm start`
+### `Login`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/113904274/218564864-a955b16d-2222-4087-b623-d37540009d1f.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users can login using their credentials and access their personal notes.<br><br>
 
-### `npm test`
+### `Signup`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/113904274/218565203-5f02c905-40b8-4715-ab40-00a1d8dd2357.png)
 
-### `npm run build`
+Users can create an account and login to their personal dashboard.<br><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Add new note`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/113904274/218565523-bf66dac7-2e85-450f-98fb-48aed0f2bcb5.png)
 
-### `npm run eject`
+Users can create a note by providing title and description for the note in the form given.\
+A tag should also be provided to the note.<br><br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Delete a Note`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://user-images.githubusercontent.com/113904274/218565906-65f7122f-03cd-4d94-844f-76cc0c74b1ce.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Users can delete notes they no longer need by clicking on delete button beside note title.<br><br>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Edit a Note`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/113904274/218566249-5b02e5a7-9b47-4dfe-90db-112ca8e3aef1.png)
 
-### Code Splitting
+Users can edit note's title, description or tag by clicking on edit button beside note title.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://user-images.githubusercontent.com/113904274/218566740-95fab049-2140-407f-8627-6a1608dd88af.png)
 
-### Analyzing the Bundle Size
+A form will appear. User can modify details of the note and update by submitting that form.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
