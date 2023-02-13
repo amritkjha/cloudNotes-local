@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
+import { useHistory } from "react-router-dom";
 import NoteContext from "../context/notes/noteContext";
 import AddNote from "./AddNote";
 import NoteItem from "./NoteItem";
@@ -6,8 +7,15 @@ import NoteItem from "./NoteItem";
 const Notes = (props) => {
     const a = useContext(NoteContext);
     const { notes, getNotes, editNote } = a;
+    let history = useHistory();
     useEffect(()=>{
-      getNotes();
+      if(localStorage.getItem('token')) {
+        console.log(localStorage.getItem('token'));
+        getNotes();
+      }
+      else {
+        history.push("/login")
+      }
     },[])
     const ref = useRef(null);
     const refModal = useRef(null);
